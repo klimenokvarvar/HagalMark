@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> rel="Yan Dex </title>
+    <link rel="stylesheet" href="gav.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="lkj/ppo.png">
+            <p id="textLogo">Марк Шагал</p>
+        </div>
+        <div class="menu">
+            <a href="index.html"><p>Гавная</p></a>
+            <a href="gler.html"><p>Галирея</p></a>
+            <a href="GAV.html"><p> Найди картину </p></a>
+            <a href="hhhh.html"><p>Прокачай в себе художника</p></a>
+            
+        </div>
+
+
+    </div>
+    <div class="main_game">
+     <div class="fieldGame">
+      <div class="markCard">
+        <div class="markBoxes">
+             <div class="markBox">
+                <button onclick="openSetWindow()">Инструменты</button>
+             </div>
+              <dialog id="SetWindow">
+                <div  class="conteinerWindow">
+                   <div class="conteineCloseButton">
+                        <div onclick="cloSetWindow()"><p>╳</p></div>
+                   </div>
+                   <h3> инструменты</h3>
+                   <div class="gridCard">
+                        <div class="oneCard">
+                            <div class="topPath">
+                                <div>
+                                    <img src="lkj/pngwing.com (49).png">
+                                </div>
+                                <div>
+                                    <h3>Кисти</h3>
+                                    <p>доход в минуту</p>
+                                    <p><span id="countCardId0">22</span>$</p>
+                                </div>
+                            </div>
+                            <div class="bottomPath">
+                                <div>
+                                    <p>Уровень<span id="levelCardId0">1</span></p>
+                                </div>
+                                <div onclick="buyCard(0)" > 
+                                    <p><span id="costCardId0">17</span>$</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oneCard">
+                            <div class="topPath">
+                                <div>
+                                    <img src="lkj/pngwing.com (50).png">
+                                </div>
+                                <div>
+                                    <h3>Кисть с градиентом </h3>
+                                    <p>доход в минуту</p>
+                                    <p><span id="countCardId1">52</span>$</p>
+                                </div>
+                            </div>
+                            <div class="bottomPath">
+                                <div>
+                                    <p>Уровень<span id="levelCardId1">1</span></p>
+                                </div>
+                                <div onclick="buyCard(1)" > 
+                                    <p><span id="costCardId1">190</span>$</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oneCard">
+                            <div class="topPath">
+                                <div>
+                                    <img src="lkj/pngwing.com (51).png">
+                                </div>
+                                <div>
+                                    <h3>Касная краска</h3>
+                                    <p>доход в минуту</p>
+                                    <p><span id="countCardId2">72</span>$</p>
+                                </div>
+                            </div>
+                            <div class="bottomPath">
+                                <div>
+                                    <p>Уровень<span id="levelCardId2">1</span></p>
+                                </div>
+                                <div onclick="buyCard(2)" > 
+                                    <p><span id="costCardId2">250</span>$</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oneCard">
+                            <div class="topPath">
+                                <div>
+                                    <img src="lkj/pngwing.com (52).png">
+                                </div>
+                                <div>
+                                    <h3>Краски</h3>
+                                    <p>доход в минуту</p>
+                                    <p><span id="countCardId3">100</span>$</p>
+                                </div>
+                            </div>
+                            <div class="bottomPath">
+                                <div>
+                                    <p>Уровень<span id="levelCardId3">1</span></p>
+                                </div>
+                                <div onclick="buyCard(3)" > 
+                                    <p><span id="costCardId3">350</span>$</p>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+              </dialog>
+           <div class="markBox">
+            <button onclick="openVDWindow()"> Вдохновение </button>
+           </div>
+           <dialog id="VDWindow">
+            <div  class="conteinerWindow">
+               <div class="conteineCloseButton">
+                    <div onclick="cloVDWindow()"><p>╳</p></div>
+               </div>
+               <h3> Вдохновение</h3>
+               <div class="gridCard">
+                    <div class="oneCard">
+                        <div class="topPath">
+                            <div>
+                                <img src="lkj/main.webp">
+                            </div>
+                            <div>
+                                <h3>Горы</h3>
+                                <p>доход в минуту</p>
+                                <p><span id="countCardId4">22</span>$</p>
+                            </div>
+                        </div>
+                        <div class="bottomPath">
+                            <div>
+                                <p>Уровень<span id="levelCardId4">1</span></p>
+                            </div>
+                            <div onclick="buyCard(4)" > 
+                                <p><span id="costCardId4">17</span>$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oneCard">
+                        <div class="topPath">
+                            <div>
+                                <img src="lkj/landscape-4865633_960_720.jpg">
+                            </div>
+                            <div>
+                                <h3>Озеро</h3>
+                                <p>доход в минуту</p>
+                                <p><span id="countCardId5">72</span>$</p>
+                            </div>
+                        </div>
+                        <div class="bottomPath">
+                            <div>
+                                <p>Уровень<span id="levelCardId5">1</span></p>
+                            </div>
+                            <div onclick="buyCard(5)" > 
+                                <p><span id="costCardId5">250</span>$</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+               </div>
+            </div>
+          </dialog>
+        </div>
+          
+           <div class="markStatistic">
+            <h3>Твоя игровая статистика </h3>
+            <p>Прибыль <span id="countHour">50</span> $ в минуту </p>
+           </div>
+      </div>
+      <div class="markField">
+               <p id="count">0</p>
+               <button onclick="tapBuggy()" id="buttonBuggy"><img id="mark" src="lkj/синий дом .jpg"></button>
+      </div>
+      <div class="markBuster">
+        
+        <div>
+            <img src="lkj/pngwing.com (46).png">
+            <p><span id="energy">100</span>/100</p>
+        </div>
+        <div onclick="buyPower()" id="buyPower">
+            <img src="lkj/pp.png">
+            <p><span id="power">2</span> <span id="costPower">10</span> $</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <div class="footer">
+        <div class="review">
+            <p>Оцените сайт:</p>
+            <div class="picturesReview">
+                <img src="lkj/pngwing.com (42).png"onclick="alert('Спасибо за высокуу оценку')">
+                <img src="lkj/pngwing.com (44).png"onclick="alert('Спасибо за оценку')">
+                <img src="lkj/pngwing.com (43).png"onclick="alert('Спасибо за оценку')">
+                <img src="lkj/pngwing.com (41).png"onclick="alert('Очени жали что вам не понравилось')">
+            </div>
+            <div class="textReview">
+                <p>Супер</p>
+                <p>не Супер</p>
+            </div>
+        </div>
+
+        <div class="devloper">
+            <P><b>Разработчик:</b>Varvara</P>
+            <p><b>Номер телофона:</b> +375257101507</p>
+            <p>г.Гомель 2024</p>
+            <p>Разработано при помаши It Academy</p>
+            <div><div style="position:relative;overflow:hidden;"><a href="https://yandex.by/maps/155/gomel/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Гомель</a><a href="https://yandex.by/maps/155/gomel/house/Z0kYfwVhSUQPQFtofXhxdH1jZA==/?ll=30.921536%2C52.405058&utm_medium=mapframe&utm_source=maps&z=18" style="color:#eee;font-size:12px;position:absolute;top:14px;">Речицкий проспект, 80 — Яндекс Карты</a><iframe src="https://yandex.by/map-widget/v1/?ll=30.921536%2C52.405058&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg2NjY0NDk3OBJD0JHQtdC70LDRgNGD0YHRjCwg0JPQvtC80LXQu9GMLCDQoNGN0YfRi9GG0LrRliDQv9GA0LDRgdC_0LXQutGCLCA4MCIKDT9e90EV055RQg%2C%2C&z=18" width="360" height="200" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div></div>
+        </div>
+        <div class="social">
+            <a href="#"><img src="lkj/telegram-64x64 (1).png"></a>
+            <a href="#"><img src="lkj/instagram-64x64 (2).png"></a>
+        </div>
+        
+    </div>
+    <div class="zaglushka">
+        <div>
+            <h3>нет</h3>
+        </div>
+    </div>
+
+
+        
+    <script src="gavv.js"></script>
+</body>
+</html>          
